@@ -128,9 +128,8 @@ console.log(carsForRent)
 Print in the console the TYPES of a car, of the licensePlate and of the brand properties.
 */
 
-console.log(tipeof(car.brand))
-console.log(car.model)
-console.log(car.licensePlate)
+console.log(typeof(car.licensePlate), typeof(car.brand))
+
 
 /* EXERCISE 12
 Create a new array called carsForSale and insert 3 cars in it.
@@ -150,7 +149,7 @@ let car8 = {
 }
 let carsForSale = [car6, car7, car8,]
 
-console.log(carsForSale.lenght)
+console.log(carsForSale.length)
 /* EXERCISE 13
 Print in the console the data from each car in the carsForSale array.
 */
