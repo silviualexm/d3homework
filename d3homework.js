@@ -159,3 +159,15 @@ console.log(carsForSale)
 /* WHEN YOU ARE FINISHED
 Send the code via Discord to the tutor! In the next days we'll also learn how to use GIT
 */
+
+
+// another way to solve the exercise 11
+
+//for(let car of carsForRent) {
+//    console.log(typeof car.licensePlate + ":" + typeof car.brand)
+//}
+// this is the shorter way of this:
+//for(let i = 0; i < carsForRent.length; i++) {
+//    let car = carForRent[i]
+//    console.log(typeof car.licensePlate + ":" + typeof car.brand)
+//}
